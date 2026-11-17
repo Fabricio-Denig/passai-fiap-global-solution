@@ -348,7 +348,7 @@ O funcionamento local do circuito não depende de conexão com o Supabase.
 
 ## 👉 Simulação no Wokwi
 
-**[]**
+https://wokwi.com/projects/480863571458840577
 
 ## 👉 Vídeo Explicativo
 
