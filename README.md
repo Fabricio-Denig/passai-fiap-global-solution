@@ -352,7 +352,8 @@ https://wokwi.com/projects/480863571458840577
 
 ## 👉 Vídeo Explicativo
 
-**[]**
+
+https://youtu.be/6r9sKkXStt8
 
 ---
 
