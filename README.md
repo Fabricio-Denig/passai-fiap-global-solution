@@ -377,6 +377,22 @@ A solução apresenta um protótipo experimental de semáforo inteligente capaz 
 
 ---
 
+# 🛠️ Principais Desafios e Soluções Adotadas
+
+Durante o desenvolvimento do Passaí, enfrentamos desafios técnicos que contribuíram para aprimorar a segurança e a confiabilidade do protótipo.
+
+- **📡 Precisão dos sensores:** Leituras instáveis poderiam provocar acionamentos incorretos. Implementamos suavização, confirmação de presença e tratamento de valores inválidos.
+
+- **🚦 Segurança na travessia:** Para evitar a liberação dos veículos enquanto a faixa permanece ocupada, desenvolvemos uma máquina de estados com extensão automática do tempo e modo de alerta.
+
+- **🌐 Instabilidade da conexão:** A comunicação com a internet apresentou falhas durante os testes. Separamos o envio de dados do controle do semáforo, garantindo seu funcionamento local mesmo sem Wi-Fi.
+
+- **💾 Integração com o Supabase:** Implementamos o envio de eventos por HTTPS, com tentativas de reenvio e identificação única (`ciclo_id`) para organizar os registros de cada travessia.
+
+Essas soluções permitiram validar um protótipo funcional, com decisões locais, respostas de segurança e integração com uma plataforma web.
+
+---
+
 # 🚦 Obrigado por visitar o Passaí!
 
 ### Uma cidade melhor começa na travessia.
